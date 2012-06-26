@@ -9,14 +9,14 @@ of a block of text, describing what sort of text block it precedes.
 === Macros ===
 
 |= Macro |= Name |
-|= C |= Character name |
-|= D |= Dialogue |
-|= P |= Paragraph |
-|= PG |= Page number |
-|= PN |= Panel number |
-|= T |= Title |
-|= ST |= Subtitle |
-|= STE |= Subtitle ends |
+|= C | Character name |
+|= D | Dialogue |
+|= P | Paragraph |
+|= PG | Page number |
+|= PN | Panel number |
+|= T | Title |
+|= ST | Subtitle |
+|= STE | Subtitle ends |
 
 Note that Manga is currently designed to produce A4 paper sized
 output, and contains hardwired line lengths to that effect.
