@@ -1,0 +1,27 @@
+.T
+Foo
+.ST
+A comic script by Alice
+.STE
+.P
+We're somewhere.  Things are happening all around.
+.PG
+PAGE ONE
+.PN
+SPLASH PANEL
+.P
+Lots of things are happening.
+.PG
+PAGE TWO
+.PN
+PANEL 1
+.P
+Now something else is happening.
+.C
+Bob
+.D
+Hi, I'm Bob!
+.PN
+PANEL 2
+.P
+Bob walks away.

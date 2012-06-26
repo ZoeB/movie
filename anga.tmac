@@ -1,0 +1,93 @@
+.\" Zoe Blade's comic script macro package
+
+.\" Sensible defaults
+.ad l
+.nh
+
+.\" Traps
+.de HEAD
+'sp 1i
+..
+
+.de FOOT
+'bp
+..
+
+.wh 0 HEAD
+.wh -1i FOOT
+
+.\" Character name
+.de C
+.ps 12
+.sp
+.in 2i
+.ll 4.25i
+.ce 0
+.ft CR
+..
+
+.\" Dialogue
+.de D
+.ps 12
+.sp
+.in 1i
+.ll 5.25i
+.ce 0
+.ft CR
+..
+
+.\" Paragraph
+.de P
+.ps 12
+.sp
+.in 0
+.ll 6.25i
+.ce 0
+.ft CR
+.ne 2
+..
+
+.\" PaGe number
+.de PG
+.ps 12
+.sp
+.in 0
+.ll 6.25i
+.ce 0
+.ft CBI
+..
+
+.\" PaNel number
+.de PN
+.ps 12
+.sp
+.in 0
+.ll 6.25i
+.ce 0
+.ft CB
+..
+
+.\" Title
+.de T
+.ps 24
+.sp
+.in 0
+.ll 6.25i
+.ce 1000
+.ft CB
+..
+
+.\" SubTitle
+.de ST
+.ps 12
+.sp
+.in 0
+.ll 6.25i
+.ce 1000
+.ft CR
+..
+
+.\" SubTitle Ends
+.de STE
+.sp 5
+..
