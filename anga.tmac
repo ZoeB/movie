@@ -1,6 +1,7 @@
 .\" Zoe Blade's comic script macro package
 
 .\" Sensible defaults
+.nr current_block_type 0
 .ad l
 .nh
 
@@ -10,6 +11,8 @@
 'ft CR
 'tl '''PAGE %'
 'sp
+.if (\\n[current_block_type] == 4) .ft CBI
+.if ((\\n[current_block_type] == 5) : (\\n[current_block_type] == 6)) .ft CB
 ..
 
 .de FOOT
@@ -21,6 +24,7 @@
 
 .\" Character name
 .de C
+.nr current_block_type 1
 .ps 12
 .sp
 .in 2i
@@ -32,6 +36,7 @@
 
 .\" Dialogue
 .de D
+.nr current_block_type 2
 .ps 12
 .in 1i
 .ll 5.25i
@@ -42,6 +47,7 @@
 
 .\" Paragraph
 .de P
+.nr current_block_type 3
 .ps 12
 .sp
 .in 0
@@ -53,6 +59,7 @@
 
 .\" PaGe number
 .de PG
+.nr current_block_type 4
 .ps 12
 .sp
 .in 0
@@ -64,6 +71,7 @@
 
 .\" PaNel number
 .de PN
+.nr current_block_type 5
 .ps 12
 .sp
 .in 0
@@ -75,6 +83,7 @@
 
 .\" Title
 .de T
+.nr current_block_type 6
 .ps 24
 .sp
 .in 0
@@ -85,6 +94,7 @@
 
 .\" SubTitle
 .de ST
+.nr current_block_type 7
 .ps 12
 .sp
 .in 0
@@ -95,5 +105,6 @@
 
 .\" SubTitle Ends
 .de STE
+.nr current_block_type 0
 .sp 5
 ..
