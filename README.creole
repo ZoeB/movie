@@ -20,6 +20,3 @@ as .P or .D), subsequent ones should be separated by a blank line.
 |= .T | Title |
 |= .ST | Subtitle |
 |= .STE | Subtitle ends |
-
-Note that Manga is currently designed to produce A4 paper sized
-output, and contains hardwired line lengths to that effect.

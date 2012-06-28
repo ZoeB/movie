@@ -2,6 +2,7 @@
 
 .\" Sensible defaults
 .nr current_block_type 0
+.nr default_line_length \n[.ll]
 .ad l
 .nh
 
@@ -28,7 +29,7 @@
 .ps 12
 .sp
 .in 2i
-.ll 4.25i
+.ll (\\n[default_line_length]u - 2i)
 .ce 0
 .ft CR
 .ne 4
@@ -39,7 +40,7 @@
 .nr current_block_type 2
 .ps 12
 .in 1i
-.ll 5.25i
+.ll (\\n[default_line_length]u - 1i)
 .ce 0
 .ft CR
 .ne 2
@@ -51,7 +52,7 @@
 .ps 12
 .sp
 .in 0
-.ll 6.25i
+.ll (\\n[default_line_length]u)
 .ce 0
 .ft CR
 .ne 2
@@ -63,7 +64,7 @@
 .ps 12
 .sp
 .in 0
-.ll 6.25i
+.ll (\\n[default_line_length]u)
 .ce 0
 .ft CBI
 .ne 6
@@ -75,7 +76,7 @@
 .ps 12
 .sp
 .in 0
-.ll 6.25i
+.ll (\\n[default_line_length]u)
 .ce 0
 .ft CB
 .ne 4
@@ -87,7 +88,7 @@
 .ps 24
 .sp
 .in 0
-.ll 6.25i
+.ll (\\n[default_line_length]u)
 .ce 1000
 .ft CB
 ..
@@ -98,7 +99,7 @@
 .ps 12
 .sp
 .in 0
-.ll 6.25i
+.ll (\\n[default_line_length]u)
 .ce 1000
 .ft CR
 ..
