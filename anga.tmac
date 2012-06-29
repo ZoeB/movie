@@ -3,14 +3,18 @@
 .\" Sensible defaults
 .nr default_line_length \n[.ll]
 .ad l
+.ev 1
+.ps 12
+'ft CR
+.ev
+.ps 12
+'ft CR
 .nh
 
 .\" Traps
 .de HEAD
 .ev 1
 'sp 1i
-.ps 12
-'ft CR
 'tl '''PAGE %'
 'sp
 .ev
@@ -25,7 +29,6 @@
 
 .\" Character name
 .de C
-.ps 12
 .sp
 .in 2i
 .ll (\\n[default_line_length]u - 2i)
@@ -36,7 +39,6 @@
 
 .\" Dialogue
 .de D
-.ps 12
 .in 1i
 .ll (\\n[default_line_length]u - 1i)
 .ce 0
@@ -46,7 +48,6 @@
 
 .\" Paragraph
 .de P
-.ps 12
 .sp
 .in 0
 .ll (\\n[default_line_length]u)
@@ -57,7 +58,6 @@
 
 .\" Page number
 .de PG
-.ps 12
 .sp
 .in 0
 .ll (\\n[default_line_length]u)
@@ -68,7 +68,6 @@
 
 .\" Panel number
 .de PN
-.ps 12
 .sp
 .in 0
 .ll (\\n[default_line_length]u)
@@ -79,7 +78,6 @@
 
 .\" Title
 .de T
-.ps 24
 .sp
 .in 0
 .ll (\\n[default_line_length]u)
@@ -89,7 +87,6 @@
 
 .\" Subtitle
 .de ST
-.ps 12
 .sp
 .in 0
 .ll (\\n[default_line_length]u)
