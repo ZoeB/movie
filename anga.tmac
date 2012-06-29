@@ -30,18 +30,18 @@
 .\" Character name
 .de C
 .sp
+.ad l
 .in 2i
 .ll (\\n[default_line_length]u - 2i)
-.ce 0
 .ft CR
 .ne 4
 ..
 
 .\" Dialogue
 .de D
+.ad l
 .in 1i
 .ll (\\n[default_line_length]u - 1i)
-.ce 0
 .ft CR
 .ne 2
 ..
@@ -49,19 +49,20 @@
 .\" Paragraph
 .de P
 .sp
+.ad l
 .in 0
 .ll (\\n[default_line_length]u)
-.ce 0
 .ft CR
 .ne 2
+.ad l
 ..
 
 .\" Page number
 .de PG
 .sp
+.ad l
 .in 0
 .ll (\\n[default_line_length]u)
-.ce 0
 .ft CBI
 .ne 6
 ..
@@ -69,9 +70,9 @@
 .\" Panel number
 .de PN
 .sp
+.ad l
 .in 0
 .ll (\\n[default_line_length]u)
-.ce 0
 .ft CB
 .ne 4
 ..
@@ -79,18 +80,18 @@
 .\" Title
 .de T
 .sp
+.ad c
 .in 0
 .ll (\\n[default_line_length]u)
-.ce 1000
 .ft CB
 ..
 
 .\" Subtitle
 .de ST
 .sp
+.ad c
 .in 0
 .ll (\\n[default_line_length]u)
-.ce 1000
 .ft CR
 ..
 
