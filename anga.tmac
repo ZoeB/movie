@@ -35,12 +35,13 @@
 .
 .\" Traps
 .
-.\" Print out the page number in the top right corner of every page.
+.\" Print out the page number in the top right corner of every page, except
+.\" the first.
 .
 .de HEAD
 .ev 1
 'sp 1i
-'tl '''PAGE %'
+.if !(\\n[%] == 1) 'tl '''PAGE %'
 'sp
 .ev
 ..
