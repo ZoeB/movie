@@ -1,17 +1,39 @@
 .\" Zoe Blade's comic script macro package.  Licensed under GNU GPL 3.
-
+.
+.\" The relevant page or pages of the Groff manual, The GNU Implementation
+.\" of Troff, Edition 1.20.1, is noted in brackets where appropriate.
+.
+.\" I realise that a lot of these settings (disabling the justification
+.\" of text and hyphenation, for example) somewhat defy the point of
+.\" using Groff in the first place.  Nevertheless, I for one find it
+.\" easier to type in ".C" than to center text to an arbitrary width,
+.\" and so on.  Even though I'm barely taking advantage of Groff's rich
+.\" feature set, this environment still allows me to write scripts quickly
+.\" without having to think much at all about the mechanics of telling
+.\" the computer how I want it to display the text, and Groff allows me
+.\" to format everything perfectly.
+.
 .\" Sensible defaults
+.
+.\" Store the default line length so that others can be relative to it
+.\" (72); don't justify text, have a ragged right margin (79); disable
+.\" hyphenation (82); set a 12 point Courier typeface in both the main
+.\" environment and the environment used by the header.
+.
 .nr default_line_length \n[.ll]
 .ad l
+.nh
+.ps 12
+'ft CR
 .ev 1
 .ps 12
 'ft CR
 .ev
-.ps 12
-'ft CR
-.nh
-
+.
 .\" Traps
+.
+.\" Print out the page number in the top right corner of every page.
+.
 .de HEAD
 .ev 1
 'sp 1i
@@ -19,65 +41,83 @@
 'sp
 .ev
 ..
-
+.
 .de FOOT
 'bp
 ..
-
+.
 .wh 0 HEAD
 .wh -1i FOOT
-
+.
 .\" Character name
+.
+.\" Add a blank line; indent the left and right margins by 2 inches; use
+.\" the regular Courier typeface.
+.
 .de C
 .sp
-.ad l
 .in 2i
 .ll (\\n[default_line_length]u - 2i)
 .ft CR
 .ne 4
 ..
-
+.
 .\" Dialogue
+.
+.\" Indent the left and right margins by 1 inche; use the regular Courier
+.\" typeface.
+.
 .de D
-.ad l
 .in 1i
 .ll (\\n[default_line_length]u - 1i)
 .ft CR
 .ne 2
 ..
-
+.
 .\" Paragraph
+.
+.\" Add a blank line; do not indent the margins; use the regular Courier
+.\" typeface.
+.
 .de P
 .sp
-.ad l
 .in 0
 .ll (\\n[default_line_length]u)
 .ft CR
 .ne 2
-.ad l
 ..
-
+.
 .\" Page number
+.
+.\" Add a blank line; do not indent the margins; use the bold and italicized
+.\" Courier typeface.
+.
 .de PG
 .sp
-.ad l
 .in 0
 .ll (\\n[default_line_length]u)
 .ft CBI
 .ne 6
 ..
-
+.
+.\" Add a blank line; do not indent the margins; use the bold Courier
+.\" typeface.
+.
 .\" Panel number
+.
 .de PN
 .sp
-.ad l
 .in 0
 .ll (\\n[default_line_length]u)
 .ft CB
 .ne 4
 ..
-
+.
 .\" Title
+.
+.\" Add a blank line; center text; do not indent the margins; use the bold
+.\" Courier typeface.
+.
 .de T
 .sp
 .ad c
@@ -85,17 +125,24 @@
 .ll (\\n[default_line_length]u)
 .ft CB
 ..
-
+.
 .\" Subtitle
+.
+.\" Add a blank line; do not indent the margins; use the regular Courier
+.\" typeface.
+.
 .de ST
 .sp
-.ad c
 .in 0
 .ll (\\n[default_line_length]u)
 .ft CR
 ..
-
+.
 .\" Subtitle ends
+.
+.\" Add 5 blank lines; don't justify text, have a ragged right margin (79).
+.
 .de STE
 .sp 5
+.ad l
 ..
