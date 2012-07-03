@@ -18,6 +18,16 @@
 .\" should merely enter a blank line, not call the macro a second time;
 .\" you must have a title and subtitle at the beginning of your document.
 .
+.\" To ensure a lack of orphans, paragraphs and dialogue must be able to
+.\" start at least 2 lines before a new page.  Therefore, the panel above
+.\" them must start at least 4 lines above a new page, and the page number
+.\" above that at least 6 lines before a new page.  This is admittedly
+.\" slightly wasteful as a paragraph could be immediately preceded by a
+.\" new page, if it's describing that page in general (such as a new scene
+.\" lasting the whole page.)  In short, if a new page is imminent, the
+.\" macros err on the side of keeping everything neat and tidy, at the
+.\" expense of wasting (hopefully only virtual) paper.
+.
 .\" Sensible defaults
 .
 .\" Store the default line length so that others can be relative to it
