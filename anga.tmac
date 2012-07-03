@@ -33,7 +33,8 @@
 .\" Store the default line length so that others can be relative to it
 .\" (72); don't justify text, have a ragged right margin (79); disable
 .\" hyphenation (82); set a 12 point Courier typeface in both the main
-.\" environment and the environment used by the header.
+.\" environment and the environment used by the header; give the front
+.\" page a 2 inch top margin.
 .
 .nr default_line_length \n[.ll]
 .nh
@@ -42,16 +43,17 @@
 .ps 12
 'ft CR
 .ev
+.sp 2i
 .
 .\" Traps
 .
 .\" Print out the page number in the top right corner of every page, except
-.\" the first.
+.\" the first, which, by virtue of its top margin, doesn't spring the trap.
 .
 .de HEAD
 'sp 1i
 .ev 1
-.if !(\\n[%] == 1) 'tl '''PAGE %'
+'tl '''PAGE %'
 .ev
 'sp
 ..
