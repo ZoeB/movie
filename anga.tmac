@@ -13,6 +13,11 @@
 .\" the computer how I want it to display the text, and Groff allows me
 .\" to format everything perfectly.
 .
+.\" The rules: macro names must be prefixed with a dot, on a line all by
+.\" themselves; to use the same type of text block twice in a row, you
+.\" should merely enter a blank line, not call the macro a second time;
+.\" you must have a title and subtitle at the beginning of your document.
+.
 .\" Sensible defaults
 .
 .\" Store the default line length so that others can be relative to it
@@ -21,10 +26,8 @@
 .\" environment and the environment used by the header.
 .
 .nr default_line_length \n[.ll]
-.ad l
 .nh
 .ps 12
-'ft CR
 .ev 1
 .ps 12
 'ft CR
@@ -115,26 +118,19 @@
 .
 .\" Title
 .
-.\" Add a blank line; center text; do not indent the margins; use the bold
-.\" Courier typeface.
+.\" Center text; use the bold Courier typeface.
 .
 .de T
-.sp
 .ad c
-.in 0
-.ll (\\n[default_line_length]u)
 .ft CB
 ..
 .
 .\" Subtitle
 .
-.\" Add a blank line; do not indent the margins; use the regular Courier
-.\" typeface.
+.\" Add a blank line; use the regular Courier typeface.
 .
 .de ST
 .sp
-.in 0
-.ll (\\n[default_line_length]u)
 .ft CR
 ..
 .
