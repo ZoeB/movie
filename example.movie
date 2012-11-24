@@ -1,14 +1,12 @@
 .T
 Traverse to Station One
 .ST
-A comic script by Zo\[char235] Blade
+A screenplay by Zo\[char235] Blade
 .STE
 .P
-Nine panel per page format, three rows by three columns.
-
-This is, of course, a comic transcription of part of NASA's Apollo
+This is, of course, a film transcription of part of NASA's Apollo
 17 mission.  As such, I can't take any credit for the actions depicted.
-It's intended as merely an example of how to use my "manga" Groff
+It's intended as merely an example of how to use my "movie" Groff
 macro, and fits the criteria of depicting banter amongst two or more
 people, being historic and being in the public domain.
 .P
