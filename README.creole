@@ -1,4 +1,10 @@
-== Manga ==
+== Manga and Movie ==
+
+Manga and Movie are two Groff macro packages with substantial overlap
+between them.  One is useful for writing manga and comic scripts;
+the other for writing screenplays and teleplays.
+
+=== Manga ===
 
 Manga is a Groff macro package for writing comic book scripts.  It
 consists of several macros you can enter on a line by themselves,
@@ -9,7 +15,7 @@ of a block of text, describing what type of text block it precedes.
 If you use the same type of text block several times in a row (such
 as .P or .D), subsequent ones should be separated by a blank line.
 
-=== Macros ===
+==== Macros ====
 
 |= Macro |= Name |
 |= .C | Character name |

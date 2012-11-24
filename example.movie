@@ -1,0 +1,67 @@
+.T
+Traverse to Station One
+.ST
+A comic script by Zo\[char235] Blade
+.STE
+.P
+Nine panel per page format, three rows by three columns.
+
+This is, of course, a comic transcription of part of NASA's Apollo
+17 mission.  As such, I can't take any credit for the actions depicted.
+It's intended as merely an example of how to use my "manga" Groff
+macro, and fits the criteria of depicting banter amongst two or more
+people, being historic and being in the public domain.
+.PG
+FRONT COVER (Colour)
+.PN
+SPLASH PANEL
+.P
+The vista of the moon, more specifically the lunar valley
+Taurus-Littrow.  HARRISON SCHMITT is hopping along in centre frame,
+while EUGENE CERNAN is more sensibly standing off to the side, facing
+between Schmitt and us.
+.PG
+PAGE ONE (Black and white)
+.PN
+PANEL 1
+.P
+Focusing on just Schmitt, still hopping along.
+.C
+SCHMITT (Singing)
+.D
+I was strolling on the moon one day...
+.PN
+PANEL 2 (Double width)
+.P
+Cernan joins in from the side, bouncing into frame.
+.C
+SCHMITT and CERNAN (Singing in unison)
+.D
+\&...in the merry, merry month of...
+.PN
+PANEL 3 (Double width)
+.C
+SCHMITT
+.D
+\&...December.
+.C
+CERNAN
+.D
+No, May.
+.PN
+PANEL 4
+.C
+SCHMITT
+.D
+May, that's right.
+
+When then much to my surprise, a pair of bonny eyes, bedoop bedoop
+bedoop...
+.PN
+PANEL 5 (Triple width)
+.P
+The two astronauts face each other.
+.C
+PARKER (over the radio, coming out of both astronauts' headsets)
+.D
+Sorry about that, guys, but today may be December.
