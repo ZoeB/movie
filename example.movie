@@ -9,19 +9,18 @@ This is, of course, a film transcription of part of NASA's Apollo
 It's intended as merely an example of how to use my "movie" Groff
 macro, and fits the criteria of depicting banter amongst two or more
 people, being historic and being in the public domain.
-.P
+
+EXT. MOON - TAURUS-LITTROW - DAY
+
 The vista of the moon, more specifically the lunar valley
-Taurus-Littrow.  HARRISON SCHMITT is hopping along in centre frame,
-while EUGENE CERNAN is more sensibly standing off to the side, facing
-between Schmitt and us.
-.P
-Focusing on just Schmitt, still hopping along.
+Taurus-Littrow.  HARRISON SCHMITT is hopping along, while EUGENE
+CERNAN is more sensibly standing off to the side.
 .C
 SCHMITT (Singing)
 .D
 I was strolling on the moon one day...
 .P
-Cernan joins in from the side, bouncing into frame.
+Cernan joins in from the side, bouncing up to and alongside Schmitt.
 .C
 SCHMITT and CERNAN (Singing in unison)
 .D
@@ -41,9 +40,9 @@ May, that's right.
 
 When then much to my surprise, a pair of bonny eyes, bedoop bedoop
 bedoop...
-.P
-The two astronauts face each other.
 .C
-PARKER (over the radio, coming out of both astronauts' headsets)
+PARKER (V.O., over the radio)
 .D
 Sorry about that, guys, but today may be December.
+.P
+The two astronauts face each other.
