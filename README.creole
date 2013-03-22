@@ -43,6 +43,7 @@ as .P or .D), subsequent ones should be separated by a blank line.
 
 |= Macro |= Name |
 |= .C | Character name |
+|= .DD | Dialogue description |
 |= .D | Dialogue |
 |= .P | Paragraph |
 |= .T | Title |
