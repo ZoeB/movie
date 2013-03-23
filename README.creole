@@ -39,6 +39,9 @@ block it precedes.
 If you use the same type of text block several times in a row (such
 as .P or .D), subsequent ones should be separated by a blank line.
 
+Scenes can be either numbered or plain.  If you number them, use the
+tab to specify the number before and after the scene name.
+
 ==== Macros ====
 
 |= Macro |= Name |
@@ -47,6 +50,7 @@ as .P or .D), subsequent ones should be separated by a blank line.
 |= .D | Dialogue |
 |= .P | Paragraph |
 |= .S | Scene |
+|= .NS | Numbered scene |
 |= .T | Title |
 |= .ST | Subtitle |
 |= .STE | Subtitle ends |
