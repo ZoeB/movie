@@ -46,6 +46,7 @@ as .P or .D), subsequent ones should be separated by a blank line.
 |= .DD | Dialogue description |
 |= .D | Dialogue |
 |= .P | Paragraph |
+|= .S | Scene |
 |= .T | Title |
 |= .ST | Subtitle |
 |= .STE | Subtitle ends |
