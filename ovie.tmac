@@ -36,8 +36,6 @@
 .\" environment and the environment used by the header; give the front
 .\" page a 2 inch top margin.
 .
-.po 0.5i\" Have a 0.5 inch left margin to allow scene numbers in what looks like a regular 1 inch margin.
-.ll 6.75i
 .nr default_line_length \n[.ll]
 .nh
 .ps 12
@@ -46,7 +44,6 @@
 'ft CR
 .ev
 .sp 2i
-.ta 0.5i 7i\" Use tabs to display scene numbers only.
 .
 .\" Traps
 .
@@ -56,7 +53,7 @@
 .de HEAD
 'sp 1i
 .ev 1
-'tl '''%.'
+'tl '''PAGE %'
 .ev
 'sp
 ..
@@ -75,7 +72,7 @@
 .
 .de C
 .sp
-.in 2.5i
+.in 2i
 .ll (\\n[default_line_length]u - 2i)
 .ft CR
 .ne 4
@@ -87,7 +84,7 @@
 .\" the regular Courier typeface.
 .
 .de DD
-.in 2i
+.in 1.5i
 .ll (\\n[default_line_length]u - 1.5i)
 .ft CR
 .ne 4
@@ -99,7 +96,7 @@
 .\" typeface.
 .
 .de D
-.in 1.5i
+.in 1i
 .ll (\\n[default_line_length]u - 1i)
 .ft CR
 .ne 2
@@ -112,7 +109,7 @@
 .
 .de P
 .sp
-.in 0.5i
+.in 0
 .ll (\\n[default_line_length]u)
 .ft CR
 .ne 2
@@ -125,21 +122,8 @@
 .
 .de S
 .sp
-.in 0.5i
-.ll (\\n[default_line_length]u)
-.ft CB
-.ne 2
-..
-.
-.\" Numbered scene
-.
-.\" Add a blank line; do not indent the margins; use the bold Courier
-.\" typeface.
-.
-.de NS
-.sp
 .in 0
-.ll (\\n[default_line_length]u + 1i)
+.ll (\\n[default_line_length]u)
 .ft CB
 .ne 2
 ..
@@ -149,7 +133,6 @@
 .\" Center text; use the bold Courier typeface.
 .
 .de T
-.ll (\\n[default_line_length]u + 0.75i)
 .ad c
 .ft CB
 ..
