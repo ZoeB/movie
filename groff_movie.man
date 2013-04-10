@@ -1,0 +1,10 @@
+.TH GROFF_MOVIE 7 "11 April 2013"
+.SH NAME
+groff_movie /- groff 'movie' macros to support generation of screenplays
+.SH SYNOPSIS
+.SH DESCRIPTION
+.SH OPTIONS
+.SH USAGE
+.SH MACROS TO SET FONTS
+.SH MISCELLANEOUS
+.SH AUTHOR
