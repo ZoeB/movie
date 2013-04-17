@@ -53,7 +53,7 @@
 .de HEAD
 'sp 1i
 .ev 1
-'tl '''PAGE %'
+'tl '''\\*[header] PAGE %'
 .ev
 'sp
 ..
@@ -64,6 +64,12 @@
 .
 .wh 0 HEAD
 .wh -1i FOOT
+.
+.\" Set the header variable
+.
+.de HD
+.ds header \\$1
+..
 .
 .\" Character name
 .
