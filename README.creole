@@ -6,16 +6,11 @@ the other for writing screenplays and teleplays.
 
 === Manga ===
 
-Manga is a Groff macro package for writing comic book scripts, and
-very similar to its sister movie.
-
-.HD is followed by a double-quoted string of text, which is used as
-the header.
-
-All other macros are entered on a line by themselves, in between
-lines of actual text.  With the exception of .STE, which signifies
-the //end// of a subtitle, every macro signifies the start of a block
-of text, describing what type of text block it precedes.
+Manga is a Groff macro package for writing comic book scripts.  It
+consists of several macros you can enter on a line by themselves,
+in between lines of actual text.  With the exception of .STE, which
+signifies the //end// of a subtitle, every macro signifies the start
+of a block of text, describing what type of text block it precedes.
 
 If you use the same type of text block several times in a row (such
 as .P or .D), subsequent ones should be separated by a blank line.
@@ -25,7 +20,6 @@ as .P or .D), subsequent ones should be separated by a blank line.
 |= Macro |= Name |
 |= .C | Character name |
 |= .D | Dialogue |
-|= .HD | Header |
 |= .P | Paragraph |
 |= .PG | Page number |
 |= .PN | Panel number |
@@ -35,16 +29,12 @@ as .P or .D), subsequent ones should be separated by a blank line.
 
 === Movie ===
 
-Movie is a Groff macro package for writing screenplays, and very
-similar to its sister manga.
-
-.HD is followed by a double-quoted string of text, which is used as
-the header.
-
-All other macros are entered on a line by themselves, in between
-lines of actual text.  With the exception of .STE, which signifies
-the //end// of a subtitle, every macro signifies the start of a block
-of text, describing what type of text block it precedes.
+Movie is a Groff macro package for writing screenplays.  Like its
+sister manga, it consists of several macros you can enter on a line
+by themselves, in between lines of actual text.  With the exception
+of .STE, which signifies the //end// of a subtitle, every macro
+signifies the start of a block of text, describing what type of text
+block it precedes.
 
 If you use the same type of text block several times in a row (such
 as .P or .D), subsequent ones should be separated by a blank line.
@@ -55,7 +45,6 @@ as .P or .D), subsequent ones should be separated by a blank line.
 |= .C | Character name |
 |= .DD | Dialogue description |
 |= .D | Dialogue |
-|= .HD | Header |
 |= .P | Paragraph |
 |= .S | Scene |
 |= .T | Title |
