@@ -1,2 +1,2 @@
 all:
-	groff -Tps -M . -movie example.movie > example.ps
+	groff -Tps -P-pletter -M . -movie example.movie > example.ps
