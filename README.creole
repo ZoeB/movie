@@ -1,45 +1,15 @@
-== Manga and Movie ==
+== Movie ==
 
-Manga and Movie are two Groff macro packages with substantial overlap
-between them.  One is useful for writing manga and comic scripts;
-the other for writing screenplays and teleplays.
-
-=== Manga ===
-
-Manga is a Groff macro package for writing comic book scripts.  It
-consists of several macros you can enter on a line by themselves,
-in between lines of actual text.  With the exception of .STE, which
-signifies the //end// of a subtitle, every macro signifies the start
-of a block of text, describing what type of text block it precedes.
+Movie is a Groff macro package for writing screenplays.  It consists
+of several macros you can enter on a line by themselves, in between
+lines of actual text.  With the exception of .STE, which signifies
+the //end// of a subtitle, every macro signifies the start of a block
+of text, describing what type of text block it precedes.
 
 If you use the same type of text block several times in a row (such
-as .P or .D), subsequent ones should be separated by a blank line.
+as .P or .D), subsequent ones can be separated by a blank line.
 
-==== Macros ====
-
-|= Macro |= Name |
-|= .C | Character name |
-|= .D | Dialogue |
-|= .P | Paragraph |
-|= .PG | Page number |
-|= .PN | Panel number |
-|= .T | Title |
-|= .ST | Subtitle |
-|= .STE | Subtitle ends |
-
-=== Movie ===
-
-Movie is a Groff macro package for writing screenplays.  Like its
-sister manga, it consists of several macros you can enter on a line
-by themselves, in between lines of actual text.  With the exception
-of .STE, which signifies the //end// of a subtitle, every macro
-signifies the start of a block of text, describing what type of text
-block it precedes.
-
-If you use the same type of text block several times in a row (such
-as .P or .D), subsequent ones should be separated by a blank line.
-
-==== Macros ====
+=== Macros ===
 
 |= Macro |= Name |
 |= .C | Character name |
