@@ -30,12 +30,16 @@
 .
 .\" Sensible defaults
 .
-.\" Store the default line length so that others can be relative to it
-.\" (72); don't justify text, have a ragged right margin (79); disable
-.\" hyphenation (82); set a 12 point Courier typeface in both the main
-.\" environment and the environment used by the header; give the front
-.\" page a 2 inch top margin.
+.\" Set a left margin of 1.5 inches and a right margin of 1 inch (it
+.\" looks like the default line length is such that making it 0.75 inches
+.\" shorter gives us a 1 inch right margin); store the default line
+.\" length so that others can be relative to it (72); don't justify text,
+.\" have a ragged right margin (79); disable hyphenation (82); set a 12
+.\" point Courier typeface in both the main environment and the environment
+.\" used by the header; give the front page a 2 inch top margin.
 .
+.po 1.5i
+.ll -0.75i
 .nr default_line_length \n[.ll]
 .nh
 .ps 12
