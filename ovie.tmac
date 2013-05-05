@@ -64,7 +64,21 @@
 ..
 .
 .de FOOT
+.ie '\\n[mode]'3' \{
+.in 1.5i
+.ll (\\n[default_line_length]u - 1.5i)
+(MORE)
+.in 1i
+.ll (\\n[default_line_length]u - 1i)
+\}
 'bp
+.ie '\\n[mode]'3' \{
+.in 1.5i
+.ll (\\n[default_line_length]u - 1.5i)
+(cont'd)
+.in 1i
+.ll (\\n[default_line_length]u - 1i)
+\}
 ..
 .
 .wh 0 HEAD
@@ -76,11 +90,11 @@
 .\" the regular Courier typeface.
 .
 .de C
+.nr mode 1
 .sp
 .in 2i
 .ll (\\n[default_line_length]u - 2i)
 .ft CR
-.ne 4
 ..
 .
 .\" Dialogue description
@@ -89,10 +103,10 @@
 .\" the regular Courier typeface.
 .
 .de DD
+.nr mode 2
 .in 1.5i
 .ll (\\n[default_line_length]u - 1.5i)
 .ft CR
-.ne 4
 ..
 .
 .\" Dialogue
@@ -101,10 +115,10 @@
 .\" typeface.
 .
 .de D
+.nr mode 3
 .in 1i
 .ll (\\n[default_line_length]u - 1i)
 .ft CR
-.ne 2
 ..
 .
 .\" Paragraph
@@ -113,11 +127,11 @@
 .\" typeface.
 .
 .de P
+.nr mode 4
 .sp
 .in 0
 .ll (\\n[default_line_length]u)
 .ft CR
-.ne 2
 ..
 .
 .\" Scene
@@ -126,11 +140,11 @@
 .\" typeface.
 .
 .de S
+.nr mode 5
 .sp
 .in 0
 .ll (\\n[default_line_length]u)
 .ft CB
-.ne 2
 ..
 .
 .\" Title
@@ -138,6 +152,7 @@
 .\" Center text; use the bold Courier typeface.
 .
 .de T
+.nr mode 6
 .ad c
 .ft CB
 ..
@@ -147,6 +162,7 @@
 .\" Add a blank line; use the regular Courier typeface.
 .
 .de ST
+.nr mode 7
 .sp
 .ft CR
 ..
@@ -156,6 +172,7 @@
 .\" Add page break; don't justify text, have a ragged right margin (79).
 .
 .de STE
+.nr mode 8
 .bp
 .ad l
 ..
