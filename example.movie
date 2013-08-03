@@ -5,7 +5,7 @@ by
 
 Zo\[char235] Blade
 .STE
-.P
+.A
 This is, of course, a film transcription of part of NASA's Apollo
 17 mission.  As such, I can't take any credit for the actions depicted.
 It's intended as merely an example of how to use my "movie" Groff
@@ -13,21 +13,21 @@ macro, and fits the criteria of depicting banter amongst two or more
 people, being historic and being in the public domain.
 .S
 EXT. MOON - TAURUS-LITTROW - DAY
-.P
+.A
 The vista of the moon, more specifically the lunar valley
 Taurus-Littrow.  HARRISON SCHMITT is hopping along, while EUGENE
 CERNAN is more sensibly standing off to the side.
 .C
 SCHMITT
-.DD
+.P
 (Singing)
 .D
 I was strolling on the moon one day...
-.P
+.A
 Cernan joins in from the side, bouncing up to and alongside Schmitt.
 .C
 SCHMITT and CERNAN
-.DD
+.P
 (Singing in unison)
 .D
 \&...in the merry, merry month of...
@@ -50,5 +50,5 @@ bedoop...
 PARKER (V.O.)
 .D
 Sorry about that, guys, but today may be December.
-.P
+.A
 The two astronauts face each other.

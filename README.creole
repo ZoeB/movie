@@ -13,9 +13,9 @@ as .P or .D), subsequent ones can be separated by a blank line.
 
 |= Macro |= Name |
 |= .C | Character name |
-|= .DD | Dialogue description |
+|= .P | Parenthetical |
 |= .D | Dialogue |
-|= .P | Paragraph |
+|= .A | Action |
 |= .S | Scene |
 |= .T | Title |
 |= .ST | Subtitle |
