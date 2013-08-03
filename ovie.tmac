@@ -84,6 +84,19 @@
 .wh 0 HEAD
 .wh -1i FOOT
 .
+.\" Action
+.
+.\" Add a blank line; do not indent the margins; use the regular Courier
+.\" typeface.
+.
+.de A
+.nr mode 4
+.sp
+.in 0
+.ll (\\n[default_line_length]u)
+.ft CR
+..
+.
 .\" Character name
 .
 .\" Add a blank line; indent the left and right margins by 2 inches; use
@@ -94,18 +107,6 @@
 .sp
 .in 2i
 .ll (\\n[default_line_length]u - 2i)
-.ft CR
-..
-.
-.\" Parenthetical
-.
-.\" indent the left and right margins by 1.5 inches; use
-.\" the regular Courier typeface.
-.
-.de P
-.nr mode 2
-.in 1.5i
-.ll (\\n[default_line_length]u - 1.5i)
 .ft CR
 ..
 .
@@ -121,16 +122,15 @@
 .ft CR
 ..
 .
-.\" Action
+.\" Parenthetical
 .
-.\" Add a blank line; do not indent the margins; use the regular Courier
-.\" typeface.
+.\" indent the left and right margins by 1.5 inches; use
+.\" the regular Courier typeface.
 .
-.de A
-.nr mode 4
-.sp
-.in 0
-.ll (\\n[default_line_length]u)
+.de P
+.nr mode 2
+.in 1.5i
+.ll (\\n[default_line_length]u - 1.5i)
 .ft CR
 ..
 .

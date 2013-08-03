@@ -12,10 +12,10 @@ as .P or .D), subsequent ones can be separated by a blank line.
 === Macros ===
 
 |= Macro |= Name |
-|= .C | Character name |
-|= .P | Parenthetical |
-|= .D | Dialogue |
 |= .A | Action |
+|= .C | Character name |
+|= .D | Dialogue |
+|= .P | Parenthetical |
 |= .S | Scene |
 |= .T | Title |
 |= .ST | Subtitle |
