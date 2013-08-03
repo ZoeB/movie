@@ -12,14 +12,14 @@ is a macro set for groff, designed to format screenplays for PostScript
 output
 .SH USAGE
 All macro names should be on a line by themselves.
+.IP A
+Action
 .IP C
 Character name
-.IP DD
-Dialogue description
 .IP D
 Dialogue
 .IP P
-Paragraph
+Parenthetical
 .IP S
 Scene
 .IP T
