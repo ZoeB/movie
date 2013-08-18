@@ -78,6 +78,7 @@
 .de A
 .nr mode 4
 .sp
+.ad l
 .in 0
 .ll (\\n[default_line_length]u)
 .ft CR
@@ -91,6 +92,7 @@
 .de C
 .nr mode 1
 .sp
+.ad l
 .in 2i
 .ll (\\n[default_line_length]u - 2i)
 .ft CR
@@ -103,6 +105,7 @@
 .
 .de D
 .nr mode 3
+.ad l
 .in 1i
 .ll (\\n[default_line_length]u - 1i)
 .ft CR
@@ -115,6 +118,7 @@
 .
 .de P
 .nr mode 2
+.ad l
 .in 1.5i
 .ll (\\n[default_line_length]u - 1.5i)
 .ft CR
@@ -128,9 +132,23 @@
 .de S
 .nr mode 5
 .sp
+.ad l
 .in 0
 .ll (\\n[default_line_length]u)
 .ft CB
+..
+.
+.\" Transition
+.
+.\" Like action, only right aligned.
+.
+.de T
+.nr mode 4
+.sp
+.ad r
+.in 0
+.ll (\\n[default_line_length]u)
+.ft CR
 ..
 .
 .\" Title
@@ -155,10 +173,9 @@
 .
 .\" Subtitle ends
 .
-.\" Add page break; don't justify text, have a ragged right margin (79).
+.\" Add page break.
 .
 .de STE
 .nr mode 8
 .bp
-.ad l
 ..

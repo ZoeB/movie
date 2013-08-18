@@ -22,6 +22,8 @@ Dialogue
 Parenthetical
 .IP S
 Scene
+.IP T
+Transition
 .IP TI
 Title
 .IP ST
