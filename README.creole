@@ -17,6 +17,6 @@ as .A or .D), subsequent ones can be separated by a blank line.
 |= .D | Dialogue |
 |= .P | Parenthetical |
 |= .S | Scene |
-|= .T | Title |
+|= .TI | Title |
 |= .ST | Subtitle |
 |= .STE | Subtitle ends |

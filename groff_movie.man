@@ -22,14 +22,14 @@ Dialogue
 Parenthetical
 .IP S
 Scene
-.IP T
+.IP TI
 Title
 .IP ST
 Subtitle
 .IP STE
 Subtitle ends
 
-T, ST and STE are required once each at the beginning of a screenplay.
+TI, ST and STE are required once each at the beginning of a screenplay.
 All other macros are optional and may be used as often or as little
 as required.
 .SH AUTHOR
