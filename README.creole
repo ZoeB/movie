@@ -1,23 +1,4 @@
 == Movie ==
 
-Movie is a Groff macro package for writing screenplays.  It consists
-of several macros you can enter on a line by themselves, in between
-lines of actual text.  With the exception of .STE, which signifies
-the //end// of a subtitle, every macro signifies the start of a block
-of text, describing what type of text block it precedes.
-
-If you use the same type of text block several times in a row (such
-as .A or .D), subsequent ones can be separated by a blank line.
-
-=== Macros ===
-
-|= Macro |= Name |
-|= .A | Action |
-|= .C | Character name |
-|= .D | Dialogue |
-|= .P | Parenthetical |
-|= .S | Scene |
-|= .T | Transition |
-|= .TI | Title |
-|= .ST | Subtitle |
-|= .STE | Subtitle ends |
+Movie was a Groff macro package for writing screenplays.  It's now
+obsolete due to the wonderful [[Fountain|http://fountain.io]] format.
