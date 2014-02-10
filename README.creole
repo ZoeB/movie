@@ -1,4 +1,4 @@
 == Movie ==
 
 Movie was a Groff macro package for writing screenplays.  It's now
-obsolete due to the wonderful [[Fountain|http://fountain.io]] format.
+obsolete due to the wonderful [[http://fountain.io|Fountain]] format.
